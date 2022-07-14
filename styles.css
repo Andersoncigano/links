@@ -6,15 +6,15 @@
 
 html {
 
---bg-color: #EDF2FF;
+--bg-color: #0d0d0e;
 --text-color: #00082f;
 }
 
 
 body.dark {
 
---bg-color:#00082f; 
---text-color: #ffff 
+--bg-color:#ffffff; 
+--text-color: rgb(7, 7, 7); 
 
 }
 
@@ -60,13 +60,13 @@ img.avatar {
   width: 125px;
   height: 125px;
   padding: 3,7px;
-  border: #4262EB solid 4px;
+  border: #ffffff solid 4px;
 
 
 }
 h1 {
   text-align: center;
-  font-size: 28px;
+  font-size: 25px;
   margin-top: 7px;
   margin-bottom: 8px; 
   
@@ -100,7 +100,7 @@ ul li a {
    display: flex;
    align-items: center;
    justify-content: center;
-   background: #4262EB;
+   background: #101011;
    color: white;
    text-transform: uppercase;
    font-size: 14px;
@@ -109,16 +109,13 @@ ul li a {
    margin-bottom: 16px;
    border-radius:6px;
    transition: background 400ms;
-
-
-} 
+}
 
 ul li a:hover {
 
-  background: #364FC7;
+background: #FC0A0A;
 
 }
-
 
 footer {
 
